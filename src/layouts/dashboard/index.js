@@ -51,6 +51,11 @@ function Dashboard() {
       <DashboardNavbar />
       <SoftBox py={3}>
         <SoftBox mb={3}>
+
+          
+
+
+
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
@@ -79,7 +84,7 @@ function Dashboard() {
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
                 title={{ text: "sales" }}
-                count="$103,430"
+                count="$80,550"
                 percentage={{ color: "success", text: "+5%" }}
                 icon={{
                   color: "info",
@@ -87,8 +92,58 @@ function Dashboard() {
                 }}
               />
             </Grid>
+            <Grid item xs={12} sm={6} xl={3}>
+              <MiniStatisticsCard
+                title={{ text: "sales" }}
+                count="$80,550"
+                percentage={{ color: "success", text: "+5%" }}
+                icon={{
+                  color: "info",
+                  component: "shopping_cart",
+                }}
+              />
+            </Grid>
+            <Grid item xs={12} sm={6} xl={3}>
+              <MiniStatisticsCard
+                title={{ text: "sales" }}
+                count="$80,550"
+                percentage={{ color: "success", text: "+5%" }}
+                icon={{
+                  color: "info",
+                  component: "shopping_cart",
+                }}
+              />
+            </Grid>
+            <Grid item xs={12} sm={6} xl={3}>
+              <MiniStatisticsCard
+                title={{ text: "sales" }}
+                count="$80,550"
+                percentage={{ color: "success", text: "+5%" }}
+                icon={{
+                  color: "info",
+                  component: "shopping_cart",
+                }}
+              />
+            </Grid>
+            <Grid item lg={12} sm={6} xl={3}>
+              <MiniStatisticsCard
+                title={{ text: "sales" }}
+                count="$80,550"
+                percentage={{ color: "success", text: "+5%" }}
+                icon={{
+                  color: "info",
+                  component: "mail",
+                }}
+              />
+            </Grid>
           </Grid>
+
+
+
+
         </SoftBox>
+
+
         <SoftBox mb={3}>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={7}>
@@ -99,6 +154,8 @@ function Dashboard() {
             </Grid>
           </Grid>
         </SoftBox>
+        
+
         <SoftBox mb={3}>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={5}>
@@ -106,7 +163,7 @@ function Dashboard() {
                 title="active users"
                 description={
                   <>
-                    (<strong>+23%</strong>) than last week
+                    (<strong>+24%</strong>) than last week
                   </>
                 }
                 chart={chart}
@@ -135,6 +192,8 @@ function Dashboard() {
             </Grid>
           </Grid>
         </SoftBox>
+
+        
         <Grid container spacing={3}>
           <Grid item xs={12} md={6} lg={8}>
             <Projects />

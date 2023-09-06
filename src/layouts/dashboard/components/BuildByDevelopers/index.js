@@ -35,16 +35,16 @@ function BuildByDevelopers() {
             <SoftBox display="flex" flexDirection="column" height="100%">
               <SoftBox pt={1} mb={0.5}>
                 <SoftTypography variant="body2" color="text" fontWeight="medium">
-                  Build by developers
+                  Poultry Systeel
                 </SoftTypography>
               </SoftBox>
               <SoftTypography variant="h5" fontWeight="bold" gutterBottom>
-                Soft UI Dashboard
+                Dashboard Poultry House
               </SoftTypography>
               <SoftBox mb={6}>
                 <SoftTypography variant="body2" color="text">
-                  From colors, cards, typography to complex elements, you will find the full
-                  documentation.
+                  Los elementos contenidos en este dashboard, estan siendo actualizados para para poder mostrar en una interfaz adecuada. <br/>
+                  Gracias por su paciencia. 
                 </SoftTypography>
               </SoftBox>
               <SoftTypography
@@ -71,7 +71,7 @@ function BuildByDevelopers() {
                   },
                 }}
               >
-                Read More
+                Más información
                 <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
               </SoftTypography>
             </SoftBox>

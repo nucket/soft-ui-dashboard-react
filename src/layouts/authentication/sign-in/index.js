@@ -40,15 +40,15 @@ function SignIn() {
 
   return (
     <CoverLayout
-      title="Welcome back"
-      description="Enter your email and password to sign in"
+      title="Bem-vindo"
+      description="Introduza o seu e-mail e palavra-passe para iniciar sessão"
       image={curved9}
     >
       <SoftBox component="form" role="form">
         <SoftBox mb={2}>
           <SoftBox mb={1} ml={0.5}>
             <SoftTypography component="label" variant="caption" fontWeight="bold">
-              Email
+              User
             </SoftTypography>
           </SoftBox>
           <SoftInput type="email" placeholder="Email" />
@@ -56,7 +56,7 @@ function SignIn() {
         <SoftBox mb={2}>
           <SoftBox mb={1} ml={0.5}>
             <SoftTypography component="label" variant="caption" fontWeight="bold">
-              Password
+              palavra-passe
             </SoftTypography>
           </SoftBox>
           <SoftInput type="password" placeholder="Password" />
@@ -74,12 +74,12 @@ function SignIn() {
         </SoftBox>
         <SoftBox mt={4} mb={1}>
           <SoftButton variant="gradient" color="info" fullWidth>
-            sign in
+            iniciar sessão
           </SoftButton>
         </SoftBox>
         <SoftBox mt={3} textAlign="center">
           <SoftTypography variant="button" color="text" fontWeight="regular">
-            Don&apos;t have an account?{" "}
+            Não tem uma conta?{" "}
             <SoftTypography
               component={Link}
               to="/authentication/sign-up"
@@ -88,7 +88,7 @@ function SignIn() {
               fontWeight="medium"
               textGradient
             >
-              Sign up
+              Registar
             </SoftTypography>
           </SoftTypography>
         </SoftBox>

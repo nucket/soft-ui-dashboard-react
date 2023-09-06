@@ -36,8 +36,8 @@ function BasicLayout({ title, description, image, children }) {
       <DefaultNavbar
         action={{
           type: "external",
-          route: "https://creative-tim.com/product/soft-ui-dashboard-react",
-          label: "free download",
+          route: "mailto:info@systeel.pt",
+          label: "Registar",
         }}
         transparent
         light

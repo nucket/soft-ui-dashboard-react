@@ -30,14 +30,17 @@ import PageLayout from "examples/LayoutContainers/PageLayout";
 // Authentication layout components
 import Footer from "layouts/authentication/components/Footer";
 
+// sign in
+// <><><><><><><><><><><><>
+
 function CoverLayout({ color, header, title, description, image, top, children }) {
   return (
     <PageLayout background="white">
       <DefaultNavbar
         action={{
           type: "external",
-          route: "https://creative-tim.com/product/soft-ui-dashboard-react",
-          label: "free download",
+          route: "mailto:info@systeel.pt",
+          label: "Registar",
           color: "dark",
         }}
       />

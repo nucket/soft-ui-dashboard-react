@@ -38,21 +38,20 @@ function WorkWithTheRockets() {
           sx={{
             backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
               `${linearGradient(
-                rgba(gradients.dark.main, 0.8),
-                rgba(gradients.dark.state, 0.8)
+                rgba(gradients.dark.main, 0.4),
+                rgba(gradients.dark.state, 0.6)
               )}, url(${ivancik})`,
             backgroundSize: "cover",
           }}
         >
           <SoftBox mb={3} pt={1}>
             <SoftTypography variant="h5" color="white" fontWeight="bold">
-              Work with the rockets
+              Poultry farm with Systeel systems
             </SoftTypography>
           </SoftBox>
           <SoftBox mb={2}>
             <SoftTypography variant="body2" color="white">
-              Wealth creation is an evolutionarily recent positive-sum game. It is all about who
-              take the opportunity first.
+              Imagen de fondo de prueba
             </SoftTypography>
           </SoftBox>
           <SoftTypography
@@ -79,7 +78,7 @@ function WorkWithTheRockets() {
               },
             }}
           >
-            Read More
+            Más información
             <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
           </SoftTypography>
         </SoftBox>

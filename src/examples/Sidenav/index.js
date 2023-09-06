@@ -54,8 +54,9 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
 
   useEffect(() => {
     // A function that sets the mini state of the sidenav.
+    // <><><><><><><><><> // value defect was 1200 
     function handleMiniSidenav() {
-      setMiniSidenav(dispatch, window.innerWidth < 1200);
+      setMiniSidenav(dispatch, window.innerWidth < 2000);
     }
 
     /** 
@@ -144,7 +145,7 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
           </SoftTypography>
         </SoftBox>
         <SoftBox component={NavLink} to="/" display="flex" alignItems="center">
-          {brand && <SoftBox component="img" src={brand} alt="Soft UI Logo" width="2rem" />}
+          {brand && <SoftBox component="img" src={brand} alt="Systeel Logo" width="2rem" />}
           <SoftBox
             width={!brandName && "100%"}
             sx={(theme) => sidenavLogoLabel(theme, { miniSidenav })}
@@ -162,14 +163,14 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
         <SoftBox mt={2}>
           <SoftButton
             component="a"
-            href="https://creative-tim.com/product/soft-ui-dashboard-pro-react"
+            href="https://www.systeelgroup.pt/"
             target="_blank"
             rel="noreferrer"
             variant="gradient"
             color={color}
             fullWidth
           >
-            upgrade to pro
+            Systeel
           </SoftButton>
         </SoftBox>
       </SoftBox>

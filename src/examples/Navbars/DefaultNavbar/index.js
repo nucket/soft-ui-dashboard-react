@@ -87,13 +87,13 @@ function DefaultNavbar({ transparent, light, action }) {
         left={0}
         zIndex={3}
         sx={({ palette: { transparent: transparentColor, white }, functions: { rgba } }) => ({
-          backgroundColor: transparent ? transparentColor.main : rgba(white.main, 0.8),
-          backdropFilter: transparent ? "none" : `saturate(200%) blur(30px)`,
+          backgroundColor: transparent ? transparentColor.main : rgba(white.main, 0.45),
+          backdropFilter: transparent ? "none" : `saturate(200%) blur(20px)`,
         })}
       >
         <SoftBox component={Link} to="/" py={transparent ? 1.5 : 0.75} lineHeight={1}>
           <SoftTypography variant="button" fontWeight="bold" color={light ? "white" : "dark"}>
-            Soft UI Dashboard
+            Systeel Poultry
           </SoftTypography>
         </SoftBox>
         <SoftBox color="inherit" display={{ xs: "none", lg: "flex" }} m={0} p={0}>
