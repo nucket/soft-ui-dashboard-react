@@ -45,22 +45,22 @@ function Footer() {
             </SoftBox>
             <SoftBox mr={{ xs: 0, lg: 3, xl: 6 }}>
               <SoftTypography component="a" href="#" variant="body2" color="secondary">
-                Team
+                Info
               </SoftTypography>
             </SoftBox>
             <SoftBox mr={{ xs: 2, lg: 3, xl: 6 }}>
               <SoftTypography component="a" href="#" variant="body2" color="secondary">
-                Product
+                Info
               </SoftTypography>
             </SoftBox>
             <SoftBox mr={{ xs: 2, lg: 3, xl: 6 }}>
               <SoftTypography component="a" href="#" variant="body2" color="secondary">
-                Blog
+                Info
               </SoftTypography>
             </SoftBox>
             <SoftBox>
               <SoftTypography component="a" href="#" variant="body2" color="secondary">
-                Pricing
+                Info
               </SoftTypography>
             </SoftBox>
           </SoftBox>
